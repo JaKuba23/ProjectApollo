@@ -1,2 +1,4 @@
-#Ignorowane Foldery
-Menel/
+#Zbędne foldery Unity (za dużo zajmują miejsca)
+Library/
+Logs/
+UserSettings/
