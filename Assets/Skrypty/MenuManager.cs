@@ -16,11 +16,6 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("Map");
     }
 
-    public void Options()
-    {
-        SceneManager.LoadScene("Options");
-    }
-
     public void Exit()
     {
         Application.Quit();

@@ -7,13 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class OptionsManager : MonoBehaviour
 {
-    public Dropdown resolutionDropdown;
-    public Slider MusicSlider;
-    public Slider GameSlider;
-    public AudioMixer GameMixer;
-    public AudioMixer MusicMixer;
-    public Toggle fullscreen;
+    [SerializeField] Dropdown resolutionDropdown;
+    [SerializeField] Slider MusicSlider;
+    [SerializeField] Slider GameSlider;
+    [SerializeField] AudioMixer GameMixer;
+    [SerializeField] AudioMixer MusicMixer;
+    [SerializeField] Toggle fullscreen;
     Resolution[] resolutions;
+    [SerializeField] GameObject Panel;
 
     void Awake()
     {
@@ -49,6 +50,13 @@ public class OptionsManager : MonoBehaviour
         resolutionDropdown.RefreshShownValue();
     }
 
+    void Update()
+    {
+        //turning on and off the option panel when the button is clicked
+        if(Input.GetButtonDown("Cancel"))
+            Panel.SetActive(!Panel.activeSelf);
+    }
+
     public void SetFullScreen(bool isfull)
     {
         PlayerPrefs.SetInt("isfull", isfull?1:0);
@@ -76,8 +84,13 @@ public class OptionsManager : MonoBehaviour
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
-    public void Back()
+    public void Menu()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void TurnPanel()
+    {
+        Panel.SetActive(!Panel.activeSelf);
     }
 }
