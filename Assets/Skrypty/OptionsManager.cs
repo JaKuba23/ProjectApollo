@@ -93,4 +93,9 @@ public class OptionsManager : MonoBehaviour
     {
         Panel.SetActive(!Panel.activeSelf);
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
