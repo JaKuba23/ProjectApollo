@@ -29,6 +29,7 @@ public class BuildinsChoosingManager : MonoBehaviour
             {
                 Debug.Log(hit.transform.name);
                 CameraMovement.target = hit.transform;
+                CameraMovement.offset.z = -6;
             }
         }
     }
