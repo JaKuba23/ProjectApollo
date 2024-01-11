@@ -11,6 +11,7 @@ public class BuildinsChoosingManager : MonoBehaviour
     public Transform DefaultPos;
     public Toggle finished;
     public Image Person;
+    Transform building;
 
     Camera cam;
     CameraMovement CameraMovement;
@@ -38,6 +39,7 @@ public class BuildinsChoosingManager : MonoBehaviour
                 finished.isOn = hit.transform.GetComponent<Building>().IsFinished;
                 Person.sprite = hit.transform.GetComponent<Building>().BuildingPerson;
                 BuildingUI.SetActive(true);
+                building = hit.transform;
             }
         }
     }
@@ -47,5 +49,10 @@ public class BuildinsChoosingManager : MonoBehaviour
         CameraMovement.target = DefaultPos;
         CameraMovement.offset.z = -10;
         BuildingUI.SetActive(false);
+    }
+
+    public void Przejdz()
+    {
+        SceneManager.LoadScene(building.transform.name);
     }
 }
