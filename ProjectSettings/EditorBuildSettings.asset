@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Trening Kadetow.unity
     guid: 1588616cfdee85f4bb1087a32b39218a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Vab.unity
     guid: ffb79a669033b85419a397e813b183f5
   m_configObjects: {}

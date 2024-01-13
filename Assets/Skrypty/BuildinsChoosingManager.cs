@@ -27,7 +27,7 @@ public class BuildinsChoosingManager : MonoBehaviour
         mousePos.z = 100f;
         mousePos = cam.ScreenToWorldPoint(mousePos);
         
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetButtonDown("Click"))
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
