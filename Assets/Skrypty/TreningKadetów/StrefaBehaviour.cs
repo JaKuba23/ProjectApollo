@@ -18,7 +18,7 @@ public class StrefaBehaviour : MonoBehaviour
 
     Vector2 zwrot = Vector2.down;
 
-    void Start()
+    void Awake()
     {
         newscale = transform.localScale.x;
         rb = GetComponent<Rigidbody2D>();
