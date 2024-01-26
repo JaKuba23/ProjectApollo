@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 1054582963}
   - component: {fileID: 1054582964}
   m_Layer: 3
-  m_Name: "Przyl\u0105dek"
+  m_Name: Przyladek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

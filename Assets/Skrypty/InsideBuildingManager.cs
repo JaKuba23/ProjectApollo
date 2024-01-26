@@ -27,9 +27,16 @@ public class InsideBuildingManager : MonoBehaviour
                 }
                 else if(hit.transform.name == "Graj")
                 {
-                    if(SceneManager.GetActiveScene().name == "Centrum Kosmiczne")
+                    
+                    switch(SceneManager.GetActiveScene().name)
                     {
-                        SceneManager.LoadScene("Trening Kadetow");
+                        case "Centrum Kosmiczne":
+                            SceneManager.LoadScene("Trening Kadetow");
+                            break;
+                        
+                        case "Przyladek":
+                            SceneManager.LoadScene("Symulator Rakiety");
+                            break;
                     }
                 }
             }
