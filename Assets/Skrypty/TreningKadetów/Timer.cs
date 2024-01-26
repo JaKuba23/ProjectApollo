@@ -28,15 +28,19 @@ public class Timer : MonoBehaviour
         }
         else
         {
+            //zatrzymaj gre
             sb.rb.velocity = Vector2.zero;
             sb2.rb.velocity = Vector2.zero;
             sb.enabled = false;
             sb2.enabled = false;
-            endPanel.enabled = true;
-            if(text.text == "0" && sb2.licznik + sb.licznik <= pkt)
+            //wlaczyc panel
+            // endPanel.enabled = true;
+            //czy wygral czy prezgral
+            if(text.text == "0" && sb2.licznik + sb.licznik >= pkt)
             {
                 endPanel.Won = true;
             }
+            //zacznij dialog
             endPanel.Gadaj();
             this.gameObject.SetActive(false);
             // SceneManager.LoadScene("Map");
