@@ -6,6 +6,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
+    public EndDialogueSystem endPanel;
     public float pkt;
     public StrefaBehaviour sb;
     public StrefaBehaviour sb2;
@@ -27,8 +28,17 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            sb.enabled = true;
-            sb2.enabled = true;
+            sb.rb.velocity = Vector2.zero;
+            sb2.rb.velocity = Vector2.zero;
+            sb.enabled = false;
+            sb2.enabled = false;
+            endPanel.enabled = true;
+            if(text.text == "0" && sb2.licznik + sb.licznik <= pkt)
+            {
+                endPanel.Won = true;
+            }
+            endPanel.Gadaj();
+            this.gameObject.SetActive(false);
             // SceneManager.LoadScene("Map");
         }
     }

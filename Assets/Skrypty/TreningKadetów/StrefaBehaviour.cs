@@ -8,7 +8,7 @@ public class StrefaBehaviour : MonoBehaviour
 {
     public string button;
     public TMP_Text text;
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     float speed;
     float scale;
     float newscale;
