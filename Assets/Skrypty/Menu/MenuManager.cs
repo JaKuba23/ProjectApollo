@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+    public Animator exit;
+    public Animator start;
+    public Animator options;
     public void NewGame()
     {
         //Czy już był na tych poziomach żeby się cutscenka 2 razy na gre nei wyświetlałą
@@ -38,5 +41,35 @@ public class MenuManager : MonoBehaviour
     public void Exit()
     {
         Application.Quit();
+    } 
+    public void ExitPoinetrEnter()
+    {
+        exit.SetTrigger("on");
     }
+
+    public void ExitPoinetrExit()
+    {
+        exit.SetTrigger("off");
+    }
+
+    public void StartPoinetrExit()
+    {
+        start.SetTrigger("off");
+    }
+
+    public void StartPoinetrEnter()
+    {
+        start.SetTrigger("on");
+    }
+
+    public void OptionsPoinetrExit()
+    {
+        options.SetTrigger("off");
+    }
+
+    public void OptionsPoinetrEnter()
+    {
+        options.SetTrigger("on");
+    }
+    
 }
