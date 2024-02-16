@@ -20,6 +20,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("ILC Dover Loaded", 0);
         PlayerPrefs.SetInt("Testy Pojazdow Ksiezycowych Loaded", 0);
         PlayerPrefs.SetInt("Aeroproject Corporation Loaded", 0);
+        PlayerPrefs.SetInt("Start Rakiety Loaded", 0);
         //minigry
         PlayerPrefs.SetInt("Trening Kadetow Loaded", 0);
         //tutaj to samo z tym czy ktoś przeszedł już ten level
@@ -29,6 +30,8 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("ILC Dover Finnished", 0);
         PlayerPrefs.SetInt("Testy Pojazdow Ksiezycowych Finnished", 0);
         PlayerPrefs.SetInt("Aeroproject Corporation Finnished", 0);
+        PlayerPrefs.SetInt("Start Rakiety Finished", 0);
+
 
         SceneManager.LoadScene("Map");
     }

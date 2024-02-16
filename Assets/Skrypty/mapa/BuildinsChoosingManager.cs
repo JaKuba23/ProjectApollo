@@ -55,4 +55,9 @@ public class BuildinsChoosingManager : MonoBehaviour
     {
         SceneManager.LoadScene(building.transform.name);
     }
+
+    public void WyslijRakiete()
+    {
+        SceneManager.LoadScene("Start Rakiety");
+    }
 }
