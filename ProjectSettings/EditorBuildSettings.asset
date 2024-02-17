@@ -6,42 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Skrypty/Scenes/Menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: 6ebe1744c2067264aa5c8106004c0a2e
   - enabled: 1
-    path: Assets/Skrypty/Scenes/Map.unity
+    path: Assets/Scenes/Map.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Skrypty/Scenes/Centrum Kosmiczne.unity
+    path: Assets/Scenes/Centrum Kosmiczne.unity
     guid: c2f77f86f2093ba41af4bbdf4f5525fb
   - enabled: 1
-    path: Assets/Skrypty/Scenes/Przyladek.unity
+    path: Assets/Scenes/Przyladek.unity
     guid: 4ca5926a1a624d34a981c80214cc0a60
   - enabled: 1
-    path: Assets/Skrypty/Scenes/VAB.unity
+    path: Assets/Scenes/VAB.unity
     guid: 3d0f39db73c44cd47b48660a4f3c0846
   - enabled: 1
-    path: Assets/Skrypty/Scenes/ILC Dover.unity
+    path: Assets/Scenes/ILC Dover.unity
     guid: 6304b3fda08d1eb4386a0c42b2b80e76
   - enabled: 1
-    path: Assets/Skrypty/Scenes/Testy Pojazdow Ksiezycowych.unity
+    path: Assets/Scenes/Testy Pojazdow Ksiezycowych.unity
     guid: 24afec8a0de9eac4a8aea9d62aa86c6d
   - enabled: 1
-    path: Assets/Skrypty/Scenes/Aeroproject Corporation.unity
+    path: Assets/Scenes/Aeroproject Corporation.unity
     guid: fc90207f260b4da4d83126b523639669
   - enabled: 1
-    path: Assets/Skrypty/Scenes/minigry/Trening Kadetow.unity
+    path: Assets/Scenes/minigry/Trening Kadetow.unity
     guid: 1588616cfdee85f4bb1087a32b39218a
   - enabled: 1
-    path: Assets/Skrypty/Scenes/minigry/Symulator Rakiety.unity
+    path: Assets/Scenes/minigry/Symulator Rakiety.unity
     guid: a31ee8dfb4fa1b644ab217cd3961f9ee
   - enabled: 1
-    path: Assets/Skrypty/Scenes/minigry/Koniec/Start Rakiety.unity
+    path: Assets/Scenes/minigry/Koniec/Start Rakiety.unity
     guid: fb5942317de00b74bab877de58e4d6d0
   - enabled: 1
-    path: Assets/Skrypty/Scenes/minigry/Koniec/End.unity
+    path: Assets/Scenes/minigry/Koniec/End.unity
     guid: fc0e923ddebc50143b4205f1b435fe3c
   - enabled: 1
-    path: Assets/Skrypty/Scenes/minigry/Koniec/Napisy.unity
+    path: Assets/Scenes/minigry/Koniec/Napisy.unity
     guid: 1dbf14466f9f10d4f8b1656c09d9b22b
   m_configObjects: {}
