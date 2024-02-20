@@ -11,6 +11,8 @@ public class MenuManager : MonoBehaviour
     public Animator options;
     public void NewGame()
     {
+        //Zoptymalizuj to z listą nazw wsyztskich poziomów. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
         //Czy już był na tych poziomach żeby się cutscenka 2 razy na gre nei wyświetlałą
         //budynki
         PlayerPrefs.SetInt("Map Loaded", 0);
@@ -21,6 +23,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("Testy Pojazdow Ksiezycowych Loaded", 0);
         PlayerPrefs.SetInt("Aeroproject Corporation Loaded", 0);
         PlayerPrefs.SetInt("Start Rakiety Loaded", 0);
+        PlayerPrefs.SetInt("Symulator Rakiety Loaded", 0);
         //minigry
         PlayerPrefs.SetInt("Trening Kadetow Loaded", 0);
         //tutaj to samo z tym czy ktoś przeszedł już ten level
@@ -31,6 +34,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("Testy Pojazdow Ksiezycowych Finnished", 0);
         PlayerPrefs.SetInt("Aeroproject Corporation Finnished", 0);
         PlayerPrefs.SetInt("Start Rakiety Finished", 0);
+        PlayerPrefs.SetInt("Symulator Rakiety Finished", 0);
 
 
         SceneManager.LoadScene("Map");

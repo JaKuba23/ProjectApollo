@@ -2,16 +2,20 @@
 
 public class EnemySpawner : MonoBehaviour
 {
+    public GameObject dialog;
     public GameObject enemyPrefab;
 
-    float initialEnemyRate = 5; // Początkowa częstotliwość spawnowania
-    float minEnemyRate = 2;     // Minimalna częstotliwość spawnowania
+    public float initialEnemyRate = 5; // Początkowa częstotliwość spawnowania
+    public float minEnemyRate = 2;     // Minimalna częstotliwość spawnowania
     float nextEnemySpawnTime = 0;
     float timeSinceStart = 0;
     float shipBoundaryX = 8.2f; // Ograniczenie na osi X
 
     void Update()
     {
+        if(dialog.GetComponent<DialogueSystem>().enabled == true && dialog.activeSelf == true)
+            return;
+        
         timeSinceStart += Time.deltaTime;
         nextEnemySpawnTime -= Time.deltaTime;
 

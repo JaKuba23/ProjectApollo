@@ -1365,8 +1365,8 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: file://C:/Users/huber/Desktop/ProjectApollo/Assets/materials/start rakiety/pokoj/videoplayback
-    - Trim.mp4
+  m_Url: file://C:/Users/huber/OneDrive/Pulpit/ProjectApollo/Assets/materials/start
+    rakiety/pokoj/videoplayback - Trim.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1

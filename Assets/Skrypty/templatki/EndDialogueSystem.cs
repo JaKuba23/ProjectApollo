@@ -6,9 +6,6 @@ using TMPro;
 
 public class EndDialogueSystem : MonoBehaviour
 {
-    public StrefaBehaviour oddech;
-    public StrefaBehaviour przytomnosc;
-    public Timer tm;
     public Animator anim;
     public TextMeshProUGUI tekst;
     public float predkoscTekstu;

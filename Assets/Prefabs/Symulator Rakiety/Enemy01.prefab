@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 3
+  grafika: {fileID: 400000}
 --- !u!60 &6000000
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -152,10 +152,10 @@ TextureImporter:
       name: sheet_0
       rect:
         serializedVersion: 2
-        x: 325
-        y: 380
-        width: 101
-        height: 100
+        x: 327
+        y: 381
+        width: 98
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

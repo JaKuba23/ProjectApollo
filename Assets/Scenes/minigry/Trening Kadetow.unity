@@ -572,7 +572,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1566,7 +1566,7 @@ MonoBehaviour:
   sb: {fileID: 1722738620}
   sb2: {fileID: 940670723}
   text: {fileID: 1566334185}
-  time: 31
+  time: 30
 --- !u!1 &1603158317
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2190,7 @@ MonoBehaviour:
   system: {fileID: 754486339}
   sb: {fileID: 1722738620}
   sb2: {fileID: 940670723}
-  timer: {fileID: 1566334187}
+  timer: {fileID: 0}
 --- !u!1 &1875380407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2525,10 @@ PrefabInstance:
     - target: {fileID: 1963026811120570771, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
       propertyPath: m_Name
       value: EndPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1963026811120570771, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6985975322770720896, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
       propertyPath: m_Pivot.x

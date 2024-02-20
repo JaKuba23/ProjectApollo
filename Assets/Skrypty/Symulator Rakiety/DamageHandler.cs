@@ -3,7 +3,8 @@ using System.Collections;
 
 public class DamageHandler : MonoBehaviour
 {
-
+    public EndDialogueSystem endPanel;
+    public GameObject EnemySpawner;
     public int health = 1;
     public float invulnPeriod = 0;
     float invulnTimer = 0;
@@ -30,7 +31,19 @@ public class DamageHandler : MonoBehaviour
     }
     void Die()
     {
-        
+        if(transform.tag =="Player")
+        {
+             //zatrzymaj gre
+            EnemySpawner.SetActive(false);
+            //wlaczyc panel
+            endPanel.gameObject.SetActive(true);
+            // endPanel.enabled = true;
+            //czy wygral czy prezgral
+            endPanel.Won = false;
+            //zacznij dialog
+            endPanel.Gadaj();
+            this.gameObject.SetActive(false);
+        }
         Destroy(gameObject);
     }
 
