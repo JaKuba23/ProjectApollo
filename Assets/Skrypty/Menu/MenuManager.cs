@@ -6,9 +6,16 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+    AudioSource effect;
+    [SerializeField] AudioClip click;
     public Animator exit;
     public Animator start;
     public Animator options;
+
+    void Awake()
+    {
+        effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
+    }
     public void NewGame()
     {
         //Zoptymalizuj to z listą nazw wsyztskich poziomów. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -36,13 +43,14 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("Start Rakiety Finished", 0);
         PlayerPrefs.SetInt("Symulator Rakiety Finished", 0);
 
-
-        SceneManager.LoadScene("Map");
+        Przejscie.NextScene = "Map";
+        Przejscie.SceneLoad();
     }
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("Map");
+        Przejscie.NextScene = "Map";
+        Przejscie.SceneLoad();
     }
 
     public void Exit()
@@ -77,6 +85,11 @@ public class MenuManager : MonoBehaviour
     public void OptionsPoinetrEnter()
     {
         options.SetTrigger("on");
+    }
+
+    public void Click()
+    {
+        effect.PlayOneShot(click);
     }
     
 }

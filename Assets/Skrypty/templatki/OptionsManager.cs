@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class OptionsManager : MonoBehaviour
 {
+    AudioSource effect;
+    [SerializeField] AudioClip click;
     [SerializeField] Dropdown resolutionDropdown;
     [SerializeField] Slider MusicSlider;
     [SerializeField] Slider GameSlider;
@@ -18,10 +20,9 @@ public class OptionsManager : MonoBehaviour
 
     void Awake()
     {
+        effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
         //Seting up every option
         Screen.SetResolution(PlayerPrefs.GetInt("ResolutionW"), PlayerPrefs.GetInt("ResolutionH"), PlayerPrefs.GetInt("isfull")==1?true:false);
-        GameMixer.SetFloat("Volume", PlayerPrefs.GetFloat("GameVolume"));
-        MusicMixer.SetFloat("Volume", PlayerPrefs.GetFloat("MusicVolume"));
 
         //Seting up every visual option
         MusicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
@@ -31,6 +32,8 @@ public class OptionsManager : MonoBehaviour
 
     private void Start() 
     {
+        GameMixer.SetFloat("Volume", PlayerPrefs.GetFloat("GameVolume"));
+        MusicMixer.SetFloat("Volume", PlayerPrefs.GetFloat("MusicVolume"));
         //Resolution DropDown Stuff
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
@@ -86,7 +89,8 @@ public class OptionsManager : MonoBehaviour
 
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
+        Przejscie.NextScene = "Menu";
+        Przejscie.SceneLoad();
     }
 
     public void TurnPanel()
@@ -97,5 +101,10 @@ public class OptionsManager : MonoBehaviour
     public void Exit()
     {
         Application.Quit();
+    }
+
+    public void Click()
+    {
+        effect.PlayOneShot(click);
     }
 }

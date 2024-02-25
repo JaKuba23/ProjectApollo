@@ -53,11 +53,13 @@ public class BuildinsChoosingManager : MonoBehaviour
 
     public void Przejdz()
     {
-        SceneManager.LoadScene(building.transform.name);
+        Przejscie.NextScene = building.transform.name;
+        Przejscie.SceneLoad();
     }
 
     public void WyslijRakiete()
     {
-        SceneManager.LoadScene("Start Rakiety");
+        Przejscie.NextScene = "Start Rakiety";
+        Przejscie.SceneLoad();
     }
 }

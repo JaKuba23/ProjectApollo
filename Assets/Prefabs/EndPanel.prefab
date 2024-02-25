@@ -128,9 +128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a975f08e6e2870e46b3955f0e9834350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oddech: {fileID: 0}
-  przytomnosc: {fileID: 0}
-  tm: {fileID: 0}
   anim: {fileID: 6208175375161375760}
   tekst: {fileID: 2655102799441804368}
   predkoscTekstu: 0.1
@@ -303,8 +300,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "S\u0142owa wielkich ludzi"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9f570bd4540b1974eb922ed91570c6f0, type: 2}
+  m_sharedMaterial: {fileID: 6677995772406647729, guid: 9f570bd4540b1974eb922ed91570c6f0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

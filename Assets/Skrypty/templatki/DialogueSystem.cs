@@ -15,6 +15,11 @@ public class DialogueSystem : MonoBehaviour
     void Awake()
     {
         // Debug.Log(SceneManager.GetActiveScene().name + " Loaded");
+        Invoke("WakeUp", 1.5f);
+    }
+
+    void WakeUp()
+    {
         if(!(PlayerPrefs.GetInt(SceneManager.GetActiveScene().name + " Loaded")==1))
         {
             this.gameObject.SetActive(true);
