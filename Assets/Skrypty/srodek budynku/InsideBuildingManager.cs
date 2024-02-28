@@ -23,7 +23,8 @@ public class InsideBuildingManager : MonoBehaviour
             {   
                 if(hit.transform.name == "Drzwi")
                 {
-                        SceneManager.LoadScene("Map");
+                    Przejscie.NextScene = "Map";
+                    Przejscie.SceneLoad();
                 }
                 else if(hit.transform.name == "Graj")
                 {
@@ -31,11 +32,13 @@ public class InsideBuildingManager : MonoBehaviour
                     switch(SceneManager.GetActiveScene().name)
                     {
                         case "Centrum Kosmiczne":
-                            SceneManager.LoadScene("Trening Kadetow");
+                            Przejscie.NextScene = "Trening Kadetow";
+                            Przejscie.SceneLoad();
                             break;
                         
                         case "Przyladek":
-                            SceneManager.LoadScene("Symulator Rakiety");
+                            Przejscie.NextScene = "Symulator Rakiety";
+                            Przejscie.SceneLoad();
                             break;
                     }
                 }

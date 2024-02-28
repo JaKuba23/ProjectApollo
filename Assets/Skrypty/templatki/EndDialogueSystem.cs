@@ -95,11 +95,14 @@ public class EndDialogueSystem : MonoBehaviour
 
      void Reload()
      {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Przejscie.NextScene = SceneManager.GetActiveScene().name;
+        Przejscie.SceneLoad();
      }
 
      void GotoMainScene()
      {
-        SceneManager.LoadScene("Map");
+        Przejscie.NextScene = "Map";
+        Przejscie.SceneLoad();
+        
      }
 }

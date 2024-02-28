@@ -43,7 +43,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("Start Rakiety Finished", 0);
         PlayerPrefs.SetInt("Symulator Rakiety Finished", 0);
 
-        Przejscie.NextScene = "Map";
+        Przejscie.NextScene = "Prolog";
         Przejscie.SceneLoad();
     }
 

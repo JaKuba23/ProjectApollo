@@ -9,11 +9,15 @@ public class Skip : MonoBehaviour
     void Update()
     {
         if(Input.GetButtonDown("Skip"))
-            SceneManager.LoadScene("Menu");
+        {
+            Przejscie.NextScene = "Map";
+            Przejscie.SceneLoad();
+        }
     }
 
-    public void GoToMenu()
-    {
-        SceneManager.LoadScene("Menu");
-    }
+    // public void GoToMenu()
+    // {
+    //     Przejscie.NextScene = "Menu";
+    //     Przejscie.SceneLoad();
+    // }
 }
