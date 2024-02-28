@@ -522,7 +522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9b67471dc80d04cb8920702b95dc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildingPhoto: {fileID: -2413806693520163455, guid: aad8ba060f19dfb43aca8934ace87e1f, type: 3}
+  BuildingPhoto: {fileID: -2009342335, guid: 31895fd62cde8764daadb4a950133981, type: 3}
   BuildingPerson: {fileID: 7482667652216324306, guid: 5817b18bfb253ea428407042e69bd080, type: 3}
   IsFinished: 0
 --- !u!135 &289390783
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 1054582963}
   - component: {fileID: 1054582964}
   m_Layer: 3
-  m_Name: Przyladek
+  m_Name: Start Rakiety
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9b67471dc80d04cb8920702b95dc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildingPhoto: {fileID: -2413806693520163455, guid: aad8ba060f19dfb43aca8934ace87e1f, type: 3}
+  BuildingPhoto: {fileID: 1500814291, guid: 9714a2c14ac572c458f11ce277f2c1ae, type: 3}
   BuildingPerson: {fileID: 7482667652216324306, guid: 5817b18bfb253ea428407042e69bd080, type: 3}
   IsFinished: 0
 --- !u!135 &1054582964
@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9b67471dc80d04cb8920702b95dc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildingPhoto: {fileID: -2413806693520163455, guid: aad8ba060f19dfb43aca8934ace87e1f, type: 3}
+  BuildingPhoto: {fileID: -1141145332, guid: 11afdfd64a8d0394281f51752ce19b27, type: 3}
   BuildingPerson: {fileID: 7482667652216324306, guid: 5817b18bfb253ea428407042e69bd080, type: 3}
   IsFinished: 0
 --- !u!135 &1119808464
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9b67471dc80d04cb8920702b95dc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildingPhoto: {fileID: -2413806693520163455, guid: aad8ba060f19dfb43aca8934ace87e1f, type: 3}
+  BuildingPhoto: {fileID: -415948150, guid: 4bb56f7201c3d2141915d068b4737c86, type: 3}
   BuildingPerson: {fileID: 7482667652216324306, guid: 5817b18bfb253ea428407042e69bd080, type: 3}
   IsFinished: 0
 --- !u!135 &1412785840
@@ -2262,7 +2262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9b67471dc80d04cb8920702b95dc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildingPhoto: {fileID: -2413806693520163455, guid: aad8ba060f19dfb43aca8934ace87e1f, type: 3}
+  BuildingPhoto: {fileID: 1750677472, guid: de58887b0aacf3644a02c1e7488541fc, type: 3}
   BuildingPerson: {fileID: 7482667652216324306, guid: 5817b18bfb253ea428407042e69bd080, type: 3}
   IsFinished: 0
 --- !u!135 &1547056282
@@ -2470,7 +2470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9b67471dc80d04cb8920702b95dc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildingPhoto: {fileID: -2413806693520163455, guid: aad8ba060f19dfb43aca8934ace87e1f, type: 3}
+  BuildingPhoto: {fileID: -1576632212, guid: 8ef693a9851057040bb009d87fdf33e5, type: 3}
   BuildingPerson: {fileID: 7482667652216324306, guid: 5817b18bfb253ea428407042e69bd080, type: 3}
   IsFinished: 0
 --- !u!135 &1595978449
