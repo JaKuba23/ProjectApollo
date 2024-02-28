@@ -6,6 +6,7 @@ using TMPro;
 
 public class SymulatorTimer : MonoBehaviour
 {
+    public GameObject dialog;
     public EndDialogueSystem endPanel;
     public float pkt;
     public StrefaBehaviour sb;
@@ -19,6 +20,9 @@ public class SymulatorTimer : MonoBehaviour
     }
     void Update()
     {
+        if(dialog.GetComponent<DialogueSystem>().enabled == true && dialog.activeSelf == true)
+            return;
+            
         if(Mathf.Floor(time) >= 0)
         {
             text.text = Mathf.Floor(time).ToString();

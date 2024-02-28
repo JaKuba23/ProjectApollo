@@ -10,7 +10,7 @@ public class Wlaczacz : MonoBehaviour
     public DialogueSystem system;
     public StrefaBehaviour sb;
     public StrefaBehaviour sb2;
-    public Timer timer;
+    public SymulatorTimer timer;
 
     void Start()
     {
