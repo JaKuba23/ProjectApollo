@@ -11,6 +11,7 @@ public class MenuManager : MonoBehaviour
     public Animator exit;
     public Animator start;
     public Animator options;
+    public Animator dalej;
 
     void Awake()
     {
@@ -85,6 +86,16 @@ public class MenuManager : MonoBehaviour
     public void OptionsPoinetrEnter()
     {
         options.SetTrigger("on");
+    }
+
+    public void DalejPoinetrExit()
+    {
+        dalej.SetTrigger("off");
+    }
+
+    public void DalejPoinetrEnter()
+    {
+        dalej.SetTrigger("on");
     }
 
     public void Click()

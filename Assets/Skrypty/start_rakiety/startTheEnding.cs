@@ -25,6 +25,7 @@ public class startTheEnding : MonoBehaviour
     {
         GetComponent<Animator>().enabled = true;
         yield return new WaitForSeconds(1.4f);
-        SceneManager.LoadScene("End");
+        Przejscie.NextScene="End";
+        Przejscie.SceneLoad();
     }
 }

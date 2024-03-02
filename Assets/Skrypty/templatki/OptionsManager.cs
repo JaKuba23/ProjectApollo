@@ -7,6 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class OptionsManager : MonoBehaviour
 {
+    public GameObject wrocRend;
+    public GameObject wyjdzRend;
+    public Sprite[] wyjdz;
+    public Sprite[] wroc;
     AudioSource effect;
     [SerializeField] AudioClip click;
     [SerializeField] Dropdown resolutionDropdown;
@@ -106,5 +110,25 @@ public class OptionsManager : MonoBehaviour
     public void Click()
     {
         effect.PlayOneShot(click);
+    }
+
+    public void WyjsciePointerEnter()
+    {
+        wyjdzRend.GetComponent<Image>().sprite = wyjdz[1];
+    }
+
+    public void WyjsciePointerExit()
+    {
+        wyjdzRend.GetComponent<Image>().sprite = wyjdz[0];
+    }
+
+    public void WrocPointerEnter()
+    {
+        wrocRend.GetComponent<Image>().sprite = wroc[1];
+    }
+
+    public void WrociePointerExit()
+    {
+        wrocRend.GetComponent<Image>().sprite = wroc[0];
     }
 }
