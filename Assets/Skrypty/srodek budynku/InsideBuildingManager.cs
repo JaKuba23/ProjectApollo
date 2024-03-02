@@ -36,8 +36,18 @@ public class InsideBuildingManager : MonoBehaviour
                             Przejscie.SceneLoad();
                             break;
                         
-                        case "Przyladek":
+                        case "ILC Dover":
+                            Przejscie.NextScene = "Sortowanie";
+                            Przejscie.SceneLoad();
+                            break;
+                        
+                        case "Testy Pojazdow Ksiezycowych":
                             Przejscie.NextScene = "Symulator Rakiety";
+                            Przejscie.SceneLoad();
+                            break;
+                        
+                        case "Aeroproject Corporation":
+                            Przejscie.NextScene = "Paliwo";
                             Przejscie.SceneLoad();
                             break;
                     }
