@@ -21,6 +21,7 @@ public class OptionsManager : MonoBehaviour
     [SerializeField] Toggle fullscreen;
     Resolution[] resolutions;
     [SerializeField] GameObject Panel;
+    public static bool once = true;
 
     void Awake()
     {
@@ -50,6 +51,12 @@ public class OptionsManager : MonoBehaviour
 
             if(resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
                 currentResolutionIndex = i;
+        }
+
+        if(once)
+        {
+            PlayerPrefs.SetInt("ResolutionIndex", currentResolutionIndex);
+            once = false;
         }
 
         resolutionDropdown.AddOptions(options);
