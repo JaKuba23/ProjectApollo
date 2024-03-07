@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class BuildinsChoosingManager : MonoBehaviour
 {
+    public GameObject ErrorG;
     public GameObject dialog;
     public LayerMask BuildingMask;
     public GameObject BuildingUI;
@@ -33,6 +34,8 @@ public class BuildinsChoosingManager : MonoBehaviour
         
         if(Input.GetButtonDown("Click"))
         {
+            if(building)
+                building.GetComponent<SpriteRenderer>().sprite = building.GetComponent<Building>().BuildingPhoto[0];
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if(Physics.Raycast(ray,out hit, 100, BuildingMask))
@@ -44,6 +47,7 @@ public class BuildinsChoosingManager : MonoBehaviour
                 Person.sprite = hit.transform.GetComponent<Building>().BuildingPerson;
                 BuildingUI.SetActive(true);
                 building = hit.transform;
+                building.GetComponent<SpriteRenderer>().sprite = building.GetComponent<Building>().BuildingPhoto[1];
             }
         }
     }
@@ -57,8 +61,16 @@ public class BuildinsChoosingManager : MonoBehaviour
 
     public void Przejdz()
     {
-        Przejscie.NextScene = building.transform.name;
-        Przejscie.SceneLoad();
+        if (building.transform.name == "Start Rakiety" && (PlayerPrefs.GetInt("Trening Kadetow Finnished") == 0 || PlayerPrefs.GetInt("Sortowanie Finnished") == 0 || PlayerPrefs.GetInt("Paliwo Finnished") == 0 || PlayerPrefs.GetInt("Symulator Rakiety Finnished") == 0))
+        { 
+            Error.error = "Wysłać rakiete na księżyc możesz dopiero gdy ukończysz zadania we wszystkich budynkach";
+            ErrorG.SetActive(true);
+        }
+        else
+        {
+            Przejscie.NextScene = building.transform.name;
+            Przejscie.SceneLoad();
+        }
     }
 
     public void WyslijRakiete()

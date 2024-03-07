@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+    public GameObject ErrorG;
     AudioSource effect;
     [SerializeField] AudioClip click;
     public Animator exit;
@@ -15,10 +16,13 @@ public class MenuManager : MonoBehaviour
 
     void Awake()
     {
+        if(PlayerPrefs.GetInt("FirstGame Loaded") != 1)
+            PlayerPrefs.SetInt("FirstGame Loaded", 0);
         effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
     }
     public void NewGame()
     {
+        PlayerPrefs.SetInt("FirstGame Loaded", 1);
         //Zoptymalizuj to z listą nazw wsyztskich poziomów. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
         //Czy już był na tych poziomach żeby się cutscenka 2 razy na gre nei wyświetlałą
@@ -34,15 +38,14 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("Symulator Rakiety Loaded", 0);
         //minigry
         PlayerPrefs.SetInt("Trening Kadetow Loaded", 0);
+        PlayerPrefs.SetInt("Sortowanie Loaded", 0);
+        PlayerPrefs.SetInt("Paliwo Loaded", 0);
+        PlayerPrefs.SetInt("Symulator Rakiety Loaded", 0);
         //tutaj to samo z tym czy ktoś przeszedł już ten level
-        PlayerPrefs.SetInt("Centrum Kosmiczne Finnished", 0);
-        PlayerPrefs.SetInt("Przyladek Finnished", 0);
-        PlayerPrefs.SetInt("VAB Finnished", 0);
-        PlayerPrefs.SetInt("ILC Dover Finnished", 0);
-        PlayerPrefs.SetInt("Testy Pojazdow Ksiezycowych Finnished", 0);
-        PlayerPrefs.SetInt("Aeroproject Corporation Finnished", 0);
-        PlayerPrefs.SetInt("Start Rakiety Finished", 0);
-        PlayerPrefs.SetInt("Symulator Rakiety Finished", 0);
+        PlayerPrefs.SetInt("Trening Kadetow Finnished", 0);
+        PlayerPrefs.SetInt("Sortowanie Finnished", 0);
+        PlayerPrefs.SetInt("Paliwo Finnished", 0);
+        PlayerPrefs.SetInt("Symulator Rakiety Finnished", 0);
 
         Przejscie.NextScene = "Prolog";
         Przejscie.SceneLoad();
@@ -50,6 +53,11 @@ public class MenuManager : MonoBehaviour
 
     public void LoadGame()
     {
+        if(PlayerPrefs.GetInt("FirstGame Loaded") != 1)
+            {
+                Error.error = "Nie możesz załadowac gry ponieważ grasz w nią po raz pierwszy";
+                ErrorG.SetActive(true);
+            }
         Przejscie.NextScene = "Map";
         Przejscie.SceneLoad();
     }

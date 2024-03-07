@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public TextMeshProUGUI tekst;
     public EndDialogueSystem endPanel;
     public int lvlnumber = 3;
     public static GameManager Instance;
@@ -19,6 +21,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        tekst.text = lvl.ToString() + "/" + lvlnumber.ToString();
         Instance = this;
         hasGameFinished = false;
         SpawnLevel();
@@ -156,6 +159,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            lvl = 0;
             endPanel.gameObject.SetActive(true);
             endPanel.Won = true;
             endPanel.Gadaj();
