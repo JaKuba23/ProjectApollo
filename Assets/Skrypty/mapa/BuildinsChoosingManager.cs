@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class BuildinsChoosingManager : MonoBehaviour
 {
+    public GameObject dialog;
     public LayerMask BuildingMask;
     public GameObject BuildingUI;
     public Transform DefaultPos;
-    public Toggle finished;
+    //public Toggle finished;
     public Image Person;
     Transform building;
 
@@ -23,6 +24,9 @@ public class BuildinsChoosingManager : MonoBehaviour
 
     void Update()
     {
+        if(dialog.GetComponent<DialogueSystem>().enabled == true && dialog.activeSelf == true)
+            return;
+            
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = 100f;
         mousePos = cam.ScreenToWorldPoint(mousePos);
@@ -36,7 +40,7 @@ public class BuildinsChoosingManager : MonoBehaviour
                 Debug.Log(hit.transform.name);
                 CameraMovement.target = hit.transform;
                 CameraMovement.offset.z = -6;
-                finished.isOn = hit.transform.GetComponent<Building>().IsFinished;
+               // finished.isOn = hit.transform.GetComponent<Building>().IsFinished;
                 Person.sprite = hit.transform.GetComponent<Building>().BuildingPerson;
                 BuildingUI.SetActive(true);
                 building = hit.transform;

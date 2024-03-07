@@ -157,7 +157,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: testpojazdowy_1
+      name: testpojazdowy_2
       rect:
         serializedVersion: 2
         x: 0
@@ -178,14 +178,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8f8ab7e161213e47b4cf36d48c321c1
-      internalID: -453871593
+      spriteID: c47d3d67387281346801266b84f38de3
+      internalID: -1131393255
       vertices: []
       indices: 
       edges: []
@@ -203,6 +203,7 @@ TextureImporter:
     nameFileIdTable:
       testpojazdowy_0: -1576632212
       testpojazdowy_1: -453871593
+      testpojazdowy_2: -1131393255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

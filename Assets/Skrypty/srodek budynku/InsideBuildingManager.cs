@@ -6,11 +6,15 @@ using UnityEngine.UI;
 
 public class InsideBuildingManager : MonoBehaviour
 {
+    public GameObject dialog;
     public LayerMask layer;
     public Camera cam;
 
     void Update()
     {
+        if(dialog.GetComponent<DialogueSystem>().enabled == true && dialog.activeSelf == true)
+            return;
+            
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = 100f;
         mousePos = cam.ScreenToWorldPoint(mousePos);

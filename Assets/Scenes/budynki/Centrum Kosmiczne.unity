@@ -550,6 +550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f16857c087366439038e7888a50a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialog: {fileID: 1710940216}
   layer:
     serializedVersion: 2
     m_Bits: 64
@@ -981,7 +982,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e4cd6703841d4f34cb597ac8d331bb00, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6395bd13d06d3fa47b0ce34fbdf2b546, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1791,7 +1792,7 @@ PrefabInstance:
     - target: {fileID: 8541220560746453988, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2110574720, guid: b9e48599b25161044b748e09614309cb, type: 3}
+      objectReference: {fileID: 2138902856, guid: 280473c2bbab3394fa0161c57ee42a7e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
