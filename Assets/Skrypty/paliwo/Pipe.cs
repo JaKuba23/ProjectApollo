@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Pipe : MonoBehaviour
 {
+    [SerializeField] AudioClip collect;
+    AudioSource effect;
 
     [HideInInspector] public bool IsFilled;
     [HideInInspector] public int PipeType;
@@ -67,6 +69,8 @@ public class Pipe : MonoBehaviour
 
         rotation = (rotation + 1) % (maxRotation + 1);
         currentPipe.transform.eulerAngles = new Vector3(0, 0, rotation * rotationMultiplier);
+        effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
+        effect.PlayOneShot(collect);
     }
 
     public void UpdateFilled()

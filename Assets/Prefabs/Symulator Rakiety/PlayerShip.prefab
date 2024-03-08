@@ -141,6 +141,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f56de25e0272ee409e19e24906b8a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: {fileID: 8300000, guid: eb3a3dd4f8827084cb77078b4d7946a5, type: 3}
+  die: {fileID: 8300000, guid: 5cc2f5bfa8a7d744782ade924de45a4c, type: 3}
+  endPanel: {fileID: 0}
+  EnemySpawner: {fileID: 0}
   health: 1
   invulnPeriod: 0.5
 --- !u!60 &322365297375701303

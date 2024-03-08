@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4cc51a451e0b942b1c7b0850ec36ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collect: {fileID: 8300000, guid: 5cc2f5bfa8a7d744782ade924de45a4c, type: 3}
   IsFilled: 0
   PipeType: 0
   _pipePrefabs:

@@ -3,6 +3,9 @@ using System.Collections;
 
 public class DamageHandler : MonoBehaviour
 {
+    [SerializeField] AudioClip damage;
+    [SerializeField] AudioClip die;
+    AudioSource effect;
     public EndDialogueSystem endPanel;
     public GameObject EnemySpawner;
     public int health = 1;
@@ -43,6 +46,8 @@ public class DamageHandler : MonoBehaviour
             //zacznij dialog
             endPanel.Gadaj();
             this.gameObject.SetActive(false);
+            effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
+            effect.PlayOneShot(die);
         }
         Destroy(gameObject);
     }
@@ -50,6 +55,8 @@ public class DamageHandler : MonoBehaviour
     void OnTriggerEnter2D()
     {
         health--;
+        effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
+        effect.PlayOneShot(damage);
 
         if (invulnPeriod > 0)
         {

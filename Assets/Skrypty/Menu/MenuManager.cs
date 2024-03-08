@@ -16,6 +16,7 @@ public class MenuManager : MonoBehaviour
 
     void Awake()
     {
+        // Resetuj();
         if(PlayerPrefs.GetInt("FirstGame Loaded") != 1)
             PlayerPrefs.SetInt("FirstGame Loaded", 0);
         effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
@@ -49,6 +50,29 @@ public class MenuManager : MonoBehaviour
 
         Przejscie.NextScene = "Map";
         Przejscie.SceneLoad();
+    }
+    public void Resetuj()
+    {
+        PlayerPrefs.SetInt("FirstGame Loaded", 0);
+        PlayerPrefs.SetInt("Map Loaded", 0);
+        PlayerPrefs.SetInt("Centrum Kosmiczne Loaded", 0);
+        PlayerPrefs.SetInt("Przyladek Loaded", 0);
+        PlayerPrefs.SetInt("VAB Loaded", 0);
+        PlayerPrefs.SetInt("ILC Dover Loaded", 0);
+        PlayerPrefs.SetInt("Testy Pojazdow Ksiezycowych Loaded", 0);
+        PlayerPrefs.SetInt("Aeroproject Corporation Loaded", 0);
+        PlayerPrefs.SetInt("Start Rakiety Loaded", 0);
+        PlayerPrefs.SetInt("Symulator Rakiety Loaded", 0);
+        //minigry
+        PlayerPrefs.SetInt("Trening Kadetow Loaded", 0);
+        PlayerPrefs.SetInt("Sortowanie Loaded", 0);
+        PlayerPrefs.SetInt("Paliwo Loaded", 0);
+        PlayerPrefs.SetInt("Symulator Rakiety Loaded", 0);
+        //tutaj to samo z tym czy ktoś przeszedł już ten level
+        PlayerPrefs.SetInt("Trening Kadetow Finnished", 0);
+        PlayerPrefs.SetInt("Sortowanie Finnished", 0);
+        PlayerPrefs.SetInt("Paliwo Finnished", 0);
+        PlayerPrefs.SetInt("Symulator Rakiety Finnished", 0);
     }
 
     public void LoadGame()

@@ -234,7 +234,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: b9b92f5330106014a87ef2a2c4cb7f74, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 7f63c2258d3d4b741bf1c4f28d72e70e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8b92d4b712c4303438098aaece3e9177, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -920,6 +920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53b6acd4b3d802e43ace7a7b7bff731d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collect: {fileID: 8300000, guid: 5cc2f5bfa8a7d744782ade924de45a4c, type: 3}
   start: {fileID: 1451949179}
   target: {fileID: 1936929965}
   offset: {x: 0, y: 0, z: 0}
@@ -1096,6 +1097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53b6acd4b3d802e43ace7a7b7bff731d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collect: {fileID: 8300000, guid: 5cc2f5bfa8a7d744782ade924de45a4c, type: 3}
   start: {fileID: 1451949179}
   target: {fileID: 640367889}
   offset: {x: 0, y: 0, z: 0}
@@ -1478,6 +1480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53b6acd4b3d802e43ace7a7b7bff731d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collect: {fileID: 8300000, guid: 5cc2f5bfa8a7d744782ade924de45a4c, type: 3}
   start: {fileID: 1451949179}
   target: {fileID: 1801470927}
   offset: {x: 0, y: 0, z: 0}
@@ -1679,6 +1682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d2ee46584bc92418f060ca3bdbd256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  engine: {fileID: 8300000, guid: f57a7649bf659bd4da12e2273f59e504, type: 3}
   fire: {fileID: 1322649087}
   count: 0
 --- !u!1 &1540811502
@@ -2322,6 +2326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53b6acd4b3d802e43ace7a7b7bff731d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collect: {fileID: 8300000, guid: 5cc2f5bfa8a7d744782ade924de45a4c, type: 3}
   start: {fileID: 1451949179}
   target: {fileID: 619348191}
   offset: {x: 0, y: 0, z: 0}

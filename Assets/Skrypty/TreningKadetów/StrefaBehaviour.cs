@@ -6,6 +6,9 @@ using TMPro;
 
 public class StrefaBehaviour : MonoBehaviour
 {
+    [SerializeField] AudioClip collect;
+    [SerializeField] AudioClip wrong;
+    AudioSource effect;
     public string button;
     public TMP_Text text;
     public Rigidbody2D rb;
@@ -20,6 +23,7 @@ public class StrefaBehaviour : MonoBehaviour
 
     void Awake()
     {
+        effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
         newscale = transform.localScale.x;
         rb = GetComponent<Rigidbody2D>();
         zwrot = (Random.Range(-1f,1f) > 0)?Vector2.up:Vector2.down;
@@ -38,9 +42,13 @@ public class StrefaBehaviour : MonoBehaviour
             {
                 licznik++;
                 clicklock = false;
+            effect.PlayOneShot(collect);
             }
             else
+            {
              licznik = 0;
+             effect.PlayOneShot(wrong);
+            }
         }
         
     }

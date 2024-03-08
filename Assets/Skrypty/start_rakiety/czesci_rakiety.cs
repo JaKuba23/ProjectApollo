@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class czesci_rakiety : MonoBehaviour
 {
+    [SerializeField] AudioClip collect;
+    AudioSource effect;
     public startTheEnding start;
     public Transform target;
     public Vector3 offset;
@@ -34,6 +36,8 @@ public class czesci_rakiety : MonoBehaviour
             {
                 start.count++;
                 once = false;
+                effect = GameObject.FindGameObjectWithTag("Effect").GetComponent<AudioSource>();
+                effect.PlayOneShot(collect);
             }
             }
         }

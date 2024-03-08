@@ -616,19 +616,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 583110994252630219, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 583110994252630219, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 583110994444199899, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 583110994444199899, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 583110994894779340, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
       propertyPath: m_Pivot.x
@@ -730,13 +730,33 @@ PrefabInstance:
       propertyPath: click
       value: 
       objectReference: {fileID: 8300000, guid: eb3a3dd4f8827084cb77078b4d7946a5, type: 3}
+    - target: {fileID: 1429963437412354398, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
+      propertyPath: wyjdz.Array.data[0]
+      value: 
+      objectReference: {fileID: -88119564, guid: 105f136bda2a69045a97ed93f16cde89, type: 3}
+    - target: {fileID: 1429963437412354398, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
+      propertyPath: wyjdz.Array.data[1]
+      value: 
+      objectReference: {fileID: -120292409, guid: 105f136bda2a69045a97ed93f16cde89, type: 3}
+    - target: {fileID: 1812087738070071651, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -88119564, guid: 105f136bda2a69045a97ed93f16cde89, type: 3}
     - target: {fileID: 3178203320362328633, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
       propertyPath: m_Text
       value: Exit
       objectReference: {fileID: 0}
     - target: {fileID: 7936544265260704910, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 248184219}
+    - target: {fileID: 7936544265260704910, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Exit
+      value: Resetuj
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936544265260704910, guid: 5131e29b067c95e468ae73780a7670ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuManager, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1424,6 +1444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f9bbce3586999a499e8f63a06c153da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wind: {fileID: 8300000, guid: 51cca92dd92c52d4baa6bc3eb191471f, type: 3}
 --- !u!82 &1740021735
 AudioSource:
   m_ObjectHideFlags: 0
