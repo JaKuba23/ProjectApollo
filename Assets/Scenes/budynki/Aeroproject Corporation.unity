@@ -1593,6 +1593,28 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1710940218}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: Witaj!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: "Nazywam si\u0119 Ryszard Kichner, jestem specjalist\u0105 od paliwa
+        rakietowego w programie Apollo. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: "Aktualnie znajdujemy si\u0119 w Aeroproject Corporation gdzie prowadz\u0119
+        swoje badania. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: "Potrzebuj\u0119 twojej pomocy w laboratorium! Za mn\u0105!"
+      objectReference: {fileID: 0}
     - target: {fileID: 7778693015644336309, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0

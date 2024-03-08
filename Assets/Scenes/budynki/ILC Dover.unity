@@ -1593,6 +1593,33 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1710940218}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: 'Witaj! Mam na imie Buzz Aldrin. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: "B\u0119d\u0119 pilotem l\u0105downika podczas misji Apollo11. Mi\u0142o
+        mi Ci\u0119 pozna\u0107. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: "Jeste\u015Bmy w budynku firmy ILC DOVER, gdzie tworzone s\u0105 skafandry
+        kosmiczne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: "Chod\u017Amy sprawdzi\u0107 jako\u015B\u0107 materia\u0142\xF3w potrzebnych
+        na skafander!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[4]
+      value: Wadowice
+      objectReference: {fileID: 0}
     - target: {fileID: 7778693015644336309, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0

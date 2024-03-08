@@ -37,6 +37,8 @@ public class OptionsManager : MonoBehaviour
 
     private void Start() 
     {
+        wrocRend.GetComponent<Image>().sprite = wroc[0];
+        wyjdzRend.GetComponent<Image>().sprite = wyjdz[0];
         GameMixer.SetFloat("Volume", PlayerPrefs.GetFloat("GameVolume"));
         MusicMixer.SetFloat("Volume", PlayerPrefs.GetFloat("MusicVolume"));
         //Resolution DropDown Stuff

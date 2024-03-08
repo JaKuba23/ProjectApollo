@@ -1593,6 +1593,32 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1710940218}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: "Witaj! Nazywam si\u0119 Neil Armstrong."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: "Jestem dow\xF3dc\u0105 misji Apollo11, mi\u0142o mi Ci\u0119 pozna\u0107. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: "Znajdujemy si\u0119 na terenie na kt\xF3rym przeprowadzamy testy pojazd\xF3w
+        ksi\u0119\u017Cycowych."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: "Dzisiaj natomiast testowa\u0107 b\u0119dziemy umiej\u0119tno\u015Bci
+        pilota\u017Cu statkiem Michael\u2019a Collins\u2019a."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[4]
+      value: "Do dzie\u0142a!"
+      objectReference: {fileID: 0}
     - target: {fileID: 7778693015644336309, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0

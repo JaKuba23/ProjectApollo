@@ -47,7 +47,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("Paliwo Finnished", 0);
         PlayerPrefs.SetInt("Symulator Rakiety Finnished", 0);
 
-        Przejscie.NextScene = "Prolog";
+        Przejscie.NextScene = "Map";
         Przejscie.SceneLoad();
     }
 
@@ -57,6 +57,7 @@ public class MenuManager : MonoBehaviour
             {
                 Error.error = "Nie możesz załadowac gry ponieważ grasz w nią po raz pierwszy";
                 ErrorG.SetActive(true);
+                return;
             }
         Przejscie.NextScene = "Map";
         Przejscie.SceneLoad();

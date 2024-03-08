@@ -1765,6 +1765,33 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1710940218}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: "Czo\u0142em! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: "Mam na imi\u0119 Michael, Michael Collins. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: "Zosta\u0142em wyznaczony na pilota modu\u0142u dowodzenia w misji Apollo11,
+        mi\u0142o mi ci\u0119 pozna\u0107."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: "Jeste\u015Bmy teraz w centrum kosmicznym gdzie trenujemy i sprawdzamy
+        umiej\u0119tno\u015Bci astronaut\xF3w."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[4]
+      value: "W\u0142a\u015Bnie jest moja kolej na test w wir\xF3wce. \u017Bycz mi
+        powodzenia!"
+      objectReference: {fileID: 0}
     - target: {fileID: 7778693015644336309, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0

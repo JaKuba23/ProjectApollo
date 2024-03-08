@@ -1922,28 +1922,69 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: predkoscTekstu
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: slowa.Array.size
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: slowa.Array.data[0]
-      value: "Tu tutorial z obs\u0142ugi mapy"
+      value: "Witaj! Nazywam si\u0119 John Fitzgerald Kennedy. "
       objectReference: {fileID: 0}
     - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: slowa.Array.data[1]
-      value: "Oczywi\u015Bcie m\xF3wi go Kennedy"
+      value: "Zosta\u0142e\u015B przeze mnie wyznaczony do prowadzenia wy\u015Bcigu
+        kosmicznego, kt\xF3rego skutkiem ma by\u0107 pierwszy cz\u0142owiek na ksi\u0119\u017Cycu."
       objectReference: {fileID: 0}
     - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: slowa.Array.data[2]
-      value: "I wy\u015Bwietla si\u0119 tylko raz na gr\u0119"
+      value: "W chwili obecnej nie ma gwarancji, \u017Ce uda si\u0119 nam wyprzedzi\u0107
+        Rosjan. Mo\u017Cemy by\u0107 jednak zupe\u0142nie pewni, \u017Ce, nie podejmuj\u0105c
+        tych wysi\u0142k\xF3w, b\u0119dziemy wci\u0105\u017C pozostawa\u0107 daleko
+        za nimi."
       objectReference: {fileID: 0}
     - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: slowa.Array.data[3]
-      value: Wadowice
+      value: "Podejmujemy dodatkowe ryzyko, czyni\u0105c to na oczach ca\u0142ego
+        \u015Bwiata, jednak sukces Sheparda dowodzi, \u017Ce umacnia nas ka\u017Cdy
+        udany krok naprz\xF3d."
       objectReference: {fileID: 0}
     - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: slowa.Array.data[4]
-      value: Wadowice
+      value: "Naprawd\u0119 jednak Ksi\u0119\u017Cyca nie zdob\u0119dzie tylko jeden
+        cz\u0142owiek. Je\u017Celi podejmiemy t\u0119 decyzj\u0119, b\u0119dzie to
+        ca\u0142y nar\xF3d. Bo wszyscy musimy pracowa\u0107, by go tam wys\u0142a\u0107."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[5]
+      value: "Twoim zadaniem b\u0119dzie dopilnowanie 5 projekt\xF3w, kt\xF3re pomog\u0105
+        nam zwi\u0119kszy\u0107 szans\u0119 na wygranie z Zwi\u0105zkiem Sowieckim."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[6]
+      value: "B\u0119dziesz musia\u0142 pom\xF3c w laboratorium aby opracowa\u0107
+        najbardziej optymalne paliwo rakietowe,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[7]
+      value: "uda\u0107 si\u0119 do firmy ILC Dover aby dopilnowa\u0107 prawid\u0142owo\u015Bci
+        materia\u0142\xF3w z jakich si\u0119 tworzy kombinezony dla astronaut\xF3w,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[8]
+      value: "Sprawdzi\u0107 kondycj\u0119 astronaut\xF3w wir\xF3wce centrum kosmicznego
+        oraz ich rzeczywiste zdolno\u015Bci  obs\u0142ugi rakiety."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[9]
+      value: "Spokojnie, nasi astronauci b\u0119d\u0105 oprowadza\u0107 Ci\u0119
+        po budynkach aby\u015B na pewno sprawdzi\u0142 ka\u017Cdy z nich."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[10]
+      value: "POWODZENIA i Bo\u017Ce b\u0142ogos\u0142aw Ameryk\u0119!"
       objectReference: {fileID: 0}
     - target: {fileID: 8152315942172743502, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_fontColor32.rgba

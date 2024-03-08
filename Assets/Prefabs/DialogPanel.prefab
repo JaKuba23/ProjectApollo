@@ -190,8 +190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -429.5502, y: -67.573}
-  m_SizeDelta: {x: 1059.1003, y: 185.15}
+  m_AnchoredPosition: {x: -400, y: -67.572}
+  m_SizeDelta: {x: 1000, y: 185.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &253046500589369784
 CanvasRenderer:
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -120.340805, z: -859.1006, w: 56.82762}
+  m_margin: {x: 456.5011, y: -120.340805, z: -487.92676, w: 56.82762}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -425,7 +425,6 @@ MonoBehaviour:
   - Cyce
   - Donice
   - Wadowice
-  predkoscTekstu: 0.1
 --- !u!95 &7666218441222038776
 Animator:
   serializedVersion: 5

@@ -9,7 +9,7 @@ public class DialogueSystem : MonoBehaviour
     public Animator anim;
     public TextMeshProUGUI tekst;
     public string[] slowa;
-    public float predkoscTekstu;
+    float predkoscTekstu = 0.05f;
     int index;
 
     void Awake()
