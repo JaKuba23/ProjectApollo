@@ -616,6 +616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f9bbce3586999a499e8f63a06c153da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wind: {fileID: 0}
 --- !u!82 &393676350
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1596,7 +1597,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296359817}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: fa48e6d491a5119468f8b6cd0ef13cc0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1606,7 +1607,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 3
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -1617,7 +1618,7 @@ VideoPlayer:
   m_Url: file://C:/Users/huber/OneDrive/Pulpit/ProjectApollo/Assets/materials/start
     rakiety/pokoj/videoplayback - Trim.mp4
   m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
+  m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1

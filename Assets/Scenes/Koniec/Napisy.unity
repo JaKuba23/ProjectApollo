@@ -253,7 +253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dzi\u0119ki za gr\u0119!"
+  m_text: Project Apollo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_text: "\n\nHubert Witkowski\nJakub Mazurkiewicz\n\n\r\n\nMiko\u0142aj Skrzydlewski\nHubert
     Witkowski\n\n\r\n\nHubert Witkowski\n\n\r\n\nJakub Mazurkiewicz\n\n\r\n\n Hubert
     Witkowski\n\n\r\n\nHubert Witkowski\nMiko\u0142aj Skrzydlewski\n\n\r\n\n Hubert
-    Witkowski\n\n\r\n\n Hubert Witkowski"
+    Witkowski\n\n\r\n\n Hubert Witkowski\n\n\n\n Dzi\u0119kujemy za gr\u0119!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

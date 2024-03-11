@@ -839,6 +839,35 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: "Dotar\u0142e\u015B do samego ko\u0144ca.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: Nasz kraj jest z Ciebie dumny!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: "Z\u0142\xF3\u017C rakiet\u0119 do startu."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: "Aby to zrobi\u0107 przeci\u0105gnij lewym przyciskiem myszy cz\u0119\u015B\u0107
+        na odpowiednie miejsce."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[4]
+      value: Gotowy?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7778693015644336309, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_SizeDelta.x
       value: 50.6667
