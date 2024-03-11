@@ -1741,6 +1741,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3636281439277779739, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: m_Text
+      value: "Kliknij Spacj\u0119, aby pomin\u0105\u0107"
+      objectReference: {fileID: 0}
     - target: {fileID: 3695959591390741637, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_Name
       value: DialogPanel
