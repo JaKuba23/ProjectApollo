@@ -1116,6 +1116,37 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: "Twoim zadaniem b\u0119dzie trening refleksu pod wysokim obci\u0105zeniem
+        grawitacyjnym."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: "Klikaj\u0105c odpowiednio dla stron lewy i prawy shift, gdy wska\u017Anik
+        pojawi si\u0119 na czerwonym polu. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: " Gdy klikniesz shift na z\u0142ym polu, wynik ze s\u0142upka zeruje
+        si\u0119."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: "Aby wygra\u0107 musisz zdoby\u0107 minimum 10 punkt\xF3w."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[4]
+      value: Do akcji!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8152315942172743502, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -3205,6 +3236,14 @@ PrefabInstance:
       propertyPath: przytomnosc
       value: 
       objectReference: {fileID: 1722738620}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: win.Array.data[0]
+      value: "Gratulacje, uda\u0142o Ci si\u0119!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: lose.Array.data[0]
+      value: "Przegra\u0142e\u015B, spr\xF3buj ponownie!"
+      objectReference: {fileID: 0}
     - target: {fileID: 1963026811120570771, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
       propertyPath: m_Name
       value: EndPanel

@@ -777,6 +777,36 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: "Twoim zadaniem bedzi\u0119 u\u0142o\u017Cenie trasy rur, kt\xF3rymi
+        doprowadzimy paliwo do rakiety."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: "Klikaj\u0105c lewym przyciskiem myszy, sterujesz u\u0142o\u017Ceniem
+        poszczeg\xF3lnych cz\u0119\u015Bci instalacji."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: "Czy jeste\u015B gotowy?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8152315942172743502, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -1172,6 +1202,22 @@ PrefabInstance:
     - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
       propertyPath: przytomnosc
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: win.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: win.Array.data[0]
+      value: "Gratulacje, uda\u0142o Ci si\u0119!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: win.Array.data[1]
+      value: "Gratulacje uda\u0142o Ci si\u0119!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: lose.Array.data[0]
+      value: "Przegra\u0142e\u015B, spr\xF3buj ponownie!"
       objectReference: {fileID: 0}
     - target: {fileID: 1963026811120570771, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
       propertyPath: m_Name

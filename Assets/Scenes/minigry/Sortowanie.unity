@@ -1051,6 +1051,48 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[0]
+      value: Mamy problem!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[1]
+      value: "Kto\u015B zostawi\u0142 spory ba\u0142agan na hali produkcyjnej."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[2]
+      value: "Pomo\u017Cesz nam posegregowa\u0107 cze\u015Bci, aby\u015Bmy mogli
+        zacz\u0105\u0107 pracowa\u0107?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[3]
+      value: "Aby posegregowa\u0107 cz\u0119\u015Bci, kliknij lewym przyciskiem myszy
+        na element."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[4]
+      value: "Wybierz miejsce na planszy, gdzie chcesz umie\u015Bci\u0107 element,
+        klikaj\u0105c lewym przyciskiem myszy. Element przesunie si\u0119 tylko wtedy,
+        je\u015Bli wyst\u0105pi po\u0142\u0105czenie trzech takich samych element\xF3w
+        w linii prostej, mo\u017Cesz je przesun\u0105\u0107 o jedno pole w lewo,
+        prawo, g\xF3r\u0119, lub d\xF3\u0142."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[5]
+      value: "Do dzie\u0142a!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305682868681857329, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
+      propertyPath: slowa.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8152315942172743502, guid: 3c558549a884a564f81c7f8d8ddaaa57, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -2662,6 +2704,14 @@ PrefabInstance:
     - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
       propertyPath: przytomnosc
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: win.Array.data[0]
+      value: "Gratulacje, uda\u0142o Ci si\u0119!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775176216931798931, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
+      propertyPath: lose.Array.data[0]
+      value: "Przegra\u0142e\u015B, spr\xF3buj ponownie!"
       objectReference: {fileID: 0}
     - target: {fileID: 1963026811120570771, guid: c8f9a33cfdba75142b4c5a8bbe44a2b7, type: 3}
       propertyPath: m_Name
