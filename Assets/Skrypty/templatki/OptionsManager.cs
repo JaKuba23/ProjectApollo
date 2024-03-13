@@ -30,8 +30,8 @@ public class OptionsManager : MonoBehaviour
         Screen.SetResolution(PlayerPrefs.GetInt("ResolutionW"), PlayerPrefs.GetInt("ResolutionH"), PlayerPrefs.GetInt("isfull")==1?true:false);
 
         //Seting up every visual option
-        MusicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
-        GameSlider.value = PlayerPrefs.GetFloat("GameVolume");
+        MusicSlider.value = PlayerPrefs.GetFloat("MusicVolume")*2;
+        GameSlider.value = PlayerPrefs.GetFloat("GameVolume")*2;
         fullscreen.isOn = PlayerPrefs.GetInt("isfull")==1?true:false;
     }
 
@@ -39,8 +39,8 @@ public class OptionsManager : MonoBehaviour
     {
         wrocRend.GetComponent<Image>().sprite = wroc[0];
         wyjdzRend.GetComponent<Image>().sprite = wyjdz[0];
-        GameMixer.SetFloat("Volume", PlayerPrefs.GetFloat("GameVolume"));
-        MusicMixer.SetFloat("Volume", PlayerPrefs.GetFloat("MusicVolume"));
+        GameMixer.SetFloat("Volume", PlayerPrefs.GetFloat("GameVolume")/2);
+        MusicMixer.SetFloat("Volume", PlayerPrefs.GetFloat("MusicVolume")/2);
         //Resolution DropDown Stuff
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
@@ -82,14 +82,14 @@ public class OptionsManager : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        PlayerPrefs.SetFloat("GameVolume", volume);
-        GameMixer.SetFloat("Volume", volume);
+        PlayerPrefs.SetFloat("GameVolume", volume/2);
+        GameMixer.SetFloat("Volume", volume/2);
     }
 
     public void SetMusicVolume(float volume)
     {
-        PlayerPrefs.SetFloat("MusicVolume", volume);
-        MusicMixer.SetFloat("Volume", volume);
+        PlayerPrefs.SetFloat("MusicVolume", volume/2);
+        MusicMixer.SetFloat("Volume", volume/2);
     }
 
     public void SetScreenResolution(int resIndex)

@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 6208175375161375760}
   tekst: {fileID: 2655102799441804368}
-  predkoscTekstu: 0.1
+  predkoscTekstu: 0.05
   win:
   - win
   lose:

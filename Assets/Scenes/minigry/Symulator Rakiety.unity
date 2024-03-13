@@ -1018,6 +1018,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 0ce7f44c34774414ab40fd31436734ef, type: 3}
+      propertyPath: die
+      value: 
+      objectReference: {fileID: 8300000, guid: eb5e98a87a989fc4981baf7dca99ff01, type: 3}
+    - target: {fileID: 11400002, guid: 0ce7f44c34774414ab40fd31436734ef, type: 3}
+      propertyPath: damage
+      value: 
+      objectReference: {fileID: 8300000, guid: e6bb3c22066a7404f8ee5bab313736b4, type: 3}
+    - target: {fileID: 11400002, guid: 0ce7f44c34774414ab40fd31436734ef, type: 3}
       propertyPath: health
       value: 3
       objectReference: {fileID: 0}
